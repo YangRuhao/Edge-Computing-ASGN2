@@ -21,4 +21,5 @@ docker network create trans-net
 docker run -d --name trans-server --network trans-net username/translator:server
 docker run -it --rm --name trans-client --network trans-net username/translator:client
 
+Note: Most of the commands I used were in the design document.
 
